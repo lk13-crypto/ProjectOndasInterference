@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-import math
 
 # Entradas do usuário
 amplitude1 = float(input("Insira a amplitude da primeira onda: "))
