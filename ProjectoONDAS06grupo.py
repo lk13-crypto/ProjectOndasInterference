@@ -68,7 +68,7 @@ def animar(frame):
     amp2 = slider_amp2.val
     fase2 = slider_fase2.val
     
-# Bloco 9: calculo das amplitudes pela formula 
+# Bloco 9: cálculo das amplitudes pela fórmula 
     f = slider_freq.val
     y1 = amp1 * np.cos(2 * np.pi * f * (x - t) + np.radians(fase1))
     y2 = amp2 * np.cos(2 * np.pi * f * (x - t) + np.radians(fase2))
